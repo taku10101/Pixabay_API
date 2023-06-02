@@ -8,7 +8,6 @@ function App() {
   //写真データ用
   const [fetchData,setFetchData] = useState([]);
 
-  const ref = useRef();
 
   const handleSubmit =(e)=>{
     // enter時の時の自動リロードを防ぐ
