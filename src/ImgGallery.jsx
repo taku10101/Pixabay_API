@@ -1,4 +1,4 @@
-import "./ImgGallery.css"
+
 const ImgGallery = ({fetchData}) => {
 return (
     <>
