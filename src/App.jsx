@@ -33,7 +33,7 @@ function App() {
       <div className='container'>
         <h2>pix</h2>  
         <form onSubmit={(e)=>handleSubmit(e)}>
-          <inpue type='text' placeholder='画像を探す'/>
+          <inpue type='text'　value={InputText}　 placeholder='画像を探す'/>
         </form>
         {/* コンポーネントにデータを渡す */}
         <ImgGallery fetchData={fetchData} />
