@@ -16,7 +16,7 @@ function App() {
     //APIURL
     const API_KEY = "36911322-c35cd3a113aaec182e43669d2";
     //クエリパラメータ　inputで受け取ったものをクエリに埋め込む
-    const URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + //inputから値を取得して埋め込む
+    const URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + {InputText} //inputから値を取得して埋め込む
     //非同期
     fetch(URL)
     .then((res)=>{
